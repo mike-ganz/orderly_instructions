@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Orderly Download & Log-in Instructions</title>
     <style>
+        /* Base styles */
+        * {
+            box-sizing: border-box; /* Added for consistent sizing */
+        }
+
         body {
             font-family: 'Arial', sans-serif;
             background-color: #f5f5f5;
@@ -43,24 +48,41 @@
         }
 
         img {
-            width: 40%; /* or your desired width */
+            width: 40%; 
             margin: 10px 0;
             display: block;
             border-radius: 4px;
-            border: 2px solid #e0e0e0; /* Added border around images */
+            border: 2px solid #e0e0e0;
         }
         
         .img_long {
-            width: 25%; /* or your desired width */
+            width: 25%; 
             margin: 10px 0;
             display: block;
             border-radius: 4px;
-            border: 2px solid #e0e0e0; /* Added border around images */
+            border: 2px solid #e0e0e0;
         }
 
         h2 {
-            margin-top: 40px; /* You can adjust this value based on the amount of separation you want */
+            margin-top: 40px;
         }
+
+        /* Responsive styles for smaller screens */
+        @media only screen and (max-width: 768px) {
+            ol {
+                width: 95%;
+                padding: 20px; /* Reduced padding for mobile */
+            }
+
+            img {
+                width: 80%; /* Adjust based on your preference */
+            }
+
+            .img_long {
+                width: 65%; /* Adjust based on your preference */
+            }
+        }
+
     </style>
 </head>
 <body>
